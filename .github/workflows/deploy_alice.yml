@@ -43,4 +43,4 @@ jobs:
 
     # Deploy Surge
     - name: Run Surge
-      run: surge ./build web-anim-umair.surge.sh --token ${{ SECRET_1 }}
+      run: surge ./build web-anim-umair.surge.sh --token ${{ sec_alice }}
